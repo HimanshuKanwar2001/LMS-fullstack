@@ -4,6 +4,6 @@ require("dotenv").config();
 
 //create server
 app.listen(process.env.PORT, () => {
-  console.log("Server  is connecetd with port " + process.env.PORT);
   connectDB();
+  console.log("Server  is connected with port " + process.env.PORT);
 });
